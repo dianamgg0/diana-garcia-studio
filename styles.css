@@ -131,6 +131,12 @@ transform:translateY(-5px);
 box-shadow:0 15px 30px rgba(0,0,0,0.05);
 }
 
+.card-link{
+text-decoration:none;
+color:inherit;
+display:block;
+}
+
 .featured{
 background:var(--soft);
 border:1px solid var(--accent);
