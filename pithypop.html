@@ -3,127 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
+<link rel="stylesheet" href="styles.css">
+  
 <title>PithyPop – Aprende multiplicar jugando</title>
 <meta name="description" content="PithyPop es una app educativa basada en el método pitagorico para aprender las tablas de multiplicar de forma visual, divertida e intuitiva.">
 
-<style>
-body{
-margin:0;
-font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
-background:#f7f9fc;
-color:#333;
-}
-
-.container{
-max-width:900px;
-margin:auto;
-padding:20px;
-}
-
-.card{
-background:white;
-border-radius:20px;
-padding:30px;
-box-shadow:0 10px 30px rgba(0,0,0,0.08);
-text-align:center;
-}
-
-.logo{
-width:140px;
-margin-bottom:20px;
-}
-
-.hero-img{
-width:100%;
-max-width:420px;
-border-radius:16px;
-box-shadow:0 8px 20px rgba(0,0,0,0.15);
-margin:20px 0;
-}
-
-h1{
-margin-bottom:10px;
-font-size:28px;
-}
-
-.description{
-font-size:18px;
-line-height:1.5;
-color:#555;
-margin-bottom:25px;
-}
-
-.buttons{
-display:flex;
-flex-wrap:wrap;
-gap:12px;
-justify-content:center;
-margin-bottom:25px;
-}
-
-.btn{
-padding:14px 20px;
-border-radius:12px;
-text-decoration:none;
-font-weight:600;
-transition:.2s;
-}
-
-.btn-primary{
-background:#00c853;
-color:white;
-}
-
-.btn-secondary{
-background:#2962ff;
-color:white;
-}
-
-.btn-outline{
-border:2px solid #ddd;
-color:#333;
-}
-
-.btn:hover{
-transform:translateY(-2px);
-box-shadow:0 6px 14px rgba(0,0,0,0.15);
-}
-
-.features{
-margin-top:25px;
-text-align:left;
-}
-
-.features li{
-margin-bottom:10px;
-}
-
-footer{
-text-align:center;
-margin-top:20px;
-color:#777;
-font-size:14px;
-}
-</style>
 </head>
 
 <body>
 
-<div class="container">
-<div class="card">
+<div class="pithy-container">
+<div class="pithy-card">
+  
+<h1 class="pithy-title">🐸 PithyPop</h1>
 
-<h1>🐸 PithyPop</h1>
 
-<p class="description">
+<p class="pithy-description">
 Aprende las tablas de multiplicar de forma visual, divertida e intuitiva. 
 Explota burbujas, descubre patrones y desarrolla pensamiento matemático con el método pitagorico.
 </p>
 
 <!-- imagen app -->
-<img src="images/pithypop-preview.jpg" class="hero-img" alt="App PithyPop">
+<img src="images/pithypop-preview.jpg" class="pithy-hero-img" alt="App PithyPop">
 
-<div class="buttons">
+<div class="pithy-buttons">
 
 <a href="https://play.google.com/store/apps/details?id=com.zoedelta.pithypop&pli=1" 
 class="btn btn-primary" target="_blank">
@@ -142,7 +46,7 @@ Instagram
 
 </div>
 
-<ul class="features">
+<ul class="pithy-features">
 <li>✨ Aprendizaje visual de multiplicación</li>
 <li>🎮 Experiencia tipo juego</li>
 <li>🧠 Desarrollo de pensamiento matemático</li>
