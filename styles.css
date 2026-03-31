@@ -219,3 +219,120 @@ font-size:18px;
 line-height:1.6;
 opacity:.8;
 }
+/* =========================
+PITHYPOP PAGE STYLE
+========================= */
+
+.pithy-container{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+.pithy-card{
+background:white;
+border-radius:20px;
+padding:30px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.pithy-logo{
+width:140px;
+margin-bottom:20px;
+}
+
+.pithy-hero-img{
+width:100%;
+max-width:420px;
+border-radius:16px;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+margin:20px 0;
+}
+
+.pithy-title{
+margin-bottom:10px;
+font-size:28px;
+}
+
+.pithy-description{
+font-size:18px;
+line-height:1.5;
+color:#555;
+margin-bottom:25px;
+}
+
+.pithy-buttons{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+justify-content:center;
+margin-bottom:25px;
+}
+
+.btn{
+padding:14px 20px;
+border-radius:12px;
+text-decoration:none;
+font-weight:600;
+transition:.2s;
+display:inline-block;
+}
+
+.btn-primary{
+background:#00c853;
+color:white;
+}
+
+.btn-secondary{
+background:#2962ff;
+color:white;
+}
+
+.btn-outline{
+border:2px solid #ddd;
+color:#333;
+}
+
+.btn:hover{
+transform:translateY(-2px);
+box-shadow:0 6px 14px rgba(0,0,0,0.15);
+}
+
+.pithy-features{
+margin-top:25px;
+text-align:left;
+}
+
+.pithy-features li{
+margin-bottom:10px;
+}
+
+.pithy-footer{
+text-align:center;
+margin-top:20px;
+color:#777;
+font-size:14px;
+}
+
+
+/* responsive móvil */
+@media(max-width:600px){
+
+.pithy-card{
+padding:20px;
+}
+
+.pithy-title{
+font-size:22px;
+}
+
+.pithy-description{
+font-size:16px;
+}
+
+.pithy-buttons{
+flex-direction:column;
+}
+
+}
