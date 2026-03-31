@@ -174,3 +174,48 @@ display:none;
 }
 
 }
+.project{
+max-width:900px;
+margin:60px auto;
+padding:20px;
+}
+
+.back{
+display:inline-block;
+margin-bottom:20px;
+text-decoration:none;
+color:var(--text);
+opacity:.7;
+}
+
+.status{
+display:inline-block;
+background:#f3f3f3;
+padding:6px 12px;
+border-radius:20px;
+font-size:14px;
+margin-bottom:20px;
+}
+
+.project-image{
+margin:30px 0;
+border-radius:20px;
+overflow:hidden;
+border:1px solid var(--border);
+}
+
+.project-image img{
+width:100%;
+display:block;
+}
+
+.project-image.horizontal img{
+aspect-ratio:16/9;
+object-fit:cover;
+}
+
+.project-description{
+font-size:18px;
+line-height:1.6;
+opacity:.8;
+}
